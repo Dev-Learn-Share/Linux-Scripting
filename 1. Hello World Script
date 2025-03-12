@@ -1,0 +1,22 @@
+1. Hello World Script
+Concepts Covered:
+  Writing a basic script
+  Using echo for output
+  Running a script
+
+###################################################
+Script: 
+###################################################
+#!/bin/bash
+echo "Hello, World!"
+
+##################################################
+How to Run:
+##################################################
+Save the script as hello.sh
+Give execute permission
+    chmod +x hello.sh
+##################################################
+Run the script
+##################################################
+./hello.sh
