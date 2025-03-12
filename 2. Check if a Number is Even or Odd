@@ -1,0 +1,25 @@
+Concepts Covered:
+    Using read to take user input
+    Using conditional statements (if-else)
+    Using arithmetic operations
+###################################################
+Script: 
+###################################################
+        #!/bin/bash
+        read -p "Enter a number: " num
+        if ((num % 2 == 0)); then
+            echo "$num is even"
+        else
+            echo "$num is odd"
+        fi
+##################################################
+How to Run:
+##################################################
+  Save it as evenodd.sh
+  Give execute permission: chmod +x evenodd.sh
+
+##################################################
+Run the script
+##################################################
+    ./evenodd.sh
+Enter a number and see the result.
