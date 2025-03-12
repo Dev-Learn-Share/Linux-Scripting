@@ -1,0 +1,39 @@
+Concepts Covered:
+  Taking multiple inputs
+  Using case statements for decision-making
+  Performing basic arithmetic operations
+
+######################################################################################################
+Script: 
+######################################################################################################
+
+      #!/bin/bash
+      echo "Simple Calculator"
+      echo "Enter two numbers:"
+      read a
+      read b
+      
+      echo "Choose operation: + - * /"
+      read op
+      
+      case $op in
+          +) result=$((a + b)) ;;
+          -) result=$((a - b)) ;;
+          \*) result=$((a * b)) ;;
+          /) result=$((a / b)) ;;
+          *) echo "Invalid operation"; exit 1 ;;
+      esac
+      
+      echo "Result: $result"
+
+######################################################################################################
+How to Run:
+######################################################################################################
+  Save as calculator.sh
+  Give execute permission: chmod +x calculator.sh
+
+######################################################################################################
+Run the script
+######################################################################################################
+  ./calculator.sh
+  Enter numbers and choose an operation.
