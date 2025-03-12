@@ -22,4 +22,5 @@ How to Run:
 Run the script
 ##################################################
     ./evenodd.sh
+
 Enter a number and see the result.
